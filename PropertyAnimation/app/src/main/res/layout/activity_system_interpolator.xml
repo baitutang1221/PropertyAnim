@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.SystemInterpolatorActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:textSize="20sp"
+        android:layout_marginVertical="14dp"
+        android:text="AccelerateInterpolator"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="40dp"
+        android:textSize="20sp"
+        android:layout_marginVertical="14dp"
+        android:text="OvershootInterpolator"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="80dp"
+        android:textSize="20sp"
+        android:layout_marginVertical="14dp"
+        android:text="AccelerateDecelerateInterpolator"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="120dp"
+        android:textSize="20sp"
+        android:layout_marginVertical="14dp"
+        android:text="AnticipateInterpolator"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="160dp"
+        android:textSize="20sp"
+        android:layout_marginVertical="14dp"
+        android:text="AnticipateOvershootInterpolator"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="200dp"
+        android:textSize="20sp"
+        android:layout_marginVertical="14dp"
+        android:text="BounceInterpolator"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="240dp"
+        android:textSize="20sp"
+        android:layout_marginVertical="14dp"
+        android:text="CycleInterpolator"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="280dp"
+        android:textSize="20sp"
+        android:layout_marginVertical="14dp"
+        android:text="DecelerateInterpolator"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="320dp"
+        android:textSize="20sp"
+        android:layout_marginVertical="14dp"
+        android:text="LinearInterpolator"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="360dp"
+        android:text="开 始"/>
+
+</AbsoluteLayout>

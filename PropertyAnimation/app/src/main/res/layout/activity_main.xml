@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spec_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valueanimator_ofint"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spec_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ValueAnimator.oFloat()"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spec_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ValueAnimator高级用法之ofObject()"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spec_button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ObjectAnimator"
+        android:textColor="#FF0000"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spec_button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ObjectAnimator高级用法"
+        android:textColor="#FF0000"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spec_button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统插值器Interpolator"
+        android:textAllCaps="false"
+        android:textColor="#FF0000"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spec_button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义插值器,继承自TimeInterpolator "
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spec_button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="小球自由落体效果模拟"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spec_button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewPropertyAnimator的用法"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tingting.property.animation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PropertyAnimation">
+        <activity android:name=".activitys.ViewPropertyAnimatorActivity"></activity>
+        <activity android:name=".activitys.BallFreeFallActivity" />
+        <activity
+            android:name=".activitys.ObjectAnimatorAdvanceActivity"
+            android:label="ObjectAnimator高级用法" />
+        <activity
+            android:name=".activitys.ObjectAnimatorActivity"
+            android:label="ObjectAnimator" />
+        <activity
+            android:name=".activitys.DecelerateAccelerateInterpolatorActivity"
+            android:label="自定义插值器" />
+        <activity
+            android:name=".activitys.SystemInterpolatorActivity"
+            android:label="Android动画内置插值器" />
+        <activity
+            android:name=".activitys.ValueAnimatorOfObjectActivity"
+            android:label="ValueAnimator高级用法之ofObject()" />
+        <activity
+            android:name=".activitys.ValueAnimatorOfIntActivity"
+            android:label="ValueAnimator.ofInt()" />
+        <activity
+            android:name=".activitys.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

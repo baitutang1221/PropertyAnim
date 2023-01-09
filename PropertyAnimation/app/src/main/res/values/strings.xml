@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">属性动画</string>
+    <string name="valueanimator_ofint">ValueAnimator.ofInt()</string>
+</resources>
